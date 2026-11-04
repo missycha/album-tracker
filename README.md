@@ -10,7 +10,9 @@ Album Tracker is a web application built with React that allows users to search 
 
 ## Screenshot
 
-![Album Tracker Screenshot](album-tracker-screenshot.png)
+![Album Tracker Screenshot](./screenshots/album-page-screenshot.png)
+![Album Tracker Screenshot](./screenshots/recommendations-screenshot.png)
+![Album Tracker Screenshot](./screenshots/search-results-screenshot.png)
 
 ## Features
 
@@ -39,7 +41,7 @@ Album Tracker is a web application built with React that allows users to search 
 
 1. Clone the repository:
 
-   `git clone https://github.com/missycha/album-tracker.git`
+   `git clone YOUR_GITHUB_REPOSITORY_LINK`
 
 2. Open the project folder:
 
