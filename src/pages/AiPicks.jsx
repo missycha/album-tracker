@@ -21,7 +21,6 @@ export default function AiPicks({ openAlbum }) {
         setError("");
 
         try {
-            // Highest-rated albums first, so the AI sees what you love most
             const taste = [...saved]
                 .sort((a, b) => b.rating - a.rating)
                 .slice(0, 40)
@@ -41,7 +40,6 @@ export default function AiPicks({ openAlbum }) {
                 })
             );
 
-            // Drop misses, duplicates, and anything already in the collection
             const seen = new Set();
 
             setPicks(
